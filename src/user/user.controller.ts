@@ -19,6 +19,7 @@ export class UsersController {
 
   @Get(':userId/avatar')
   async getUserAvatar(@Param('userId') userId: string) {
+    // hshssjs
     return this.usersService.getUserAvatar(userId);
   }
 
